@@ -36,7 +36,7 @@ PS：可以选择复制UCRT的 include 和 lib 到 自定义文件夹方便安�
 建议在VS Developer powershell 环境下 执行 install_terrain_for_win.bat
 也可以选择在msys2 中执行 install_terrain.sh（该版本编译后需要在msys2 中启动infinigen）
 
-##### 5-7 只需执行在 msys2 中切换到infinigen目录执行 install.sh即可
+##### 5-7 只需执行在 msys2 中切换到infinigen目录执行 install_by_msys.sh即可
 ##### 也可以使用命令行分别执行以下过程
 ##### 5. 安装 Python 依赖
 1.  设置 CFLAGS 
@@ -53,4 +53,4 @@ PS:
 在mingw 中切换到Flop_fluids目录执行 fuild 安装程序即可
 
 ##### tips
-若全程使用 msys2，第四步开始，取消 install.sh 17 行注释并执行即可
+若全程使用 msys2，第四步开始，取消 install_by_msys.sh 17 行注释并执行即可
